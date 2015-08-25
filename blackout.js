@@ -1,5 +1,5 @@
 // Based on SopaBlackout
-// Usage: <script src="https://occrp.org/freekhadijaismayilova/khadija-blackout/blackout.js"></script>
+// Usage: <script src="https://www.occrp.org/freekhadijaismayilova/khadija-blackout/blackout.js"></script>
 (function (){
 	var root = this;
 
@@ -111,13 +111,15 @@
 			HEADER_TEXT1: "Today the Azerbaijani government sentenced Khadija Ismayilova to 9 years in prison.",
 			HEADER_TEXT2: "They believe it will stop her reporting. It will not.",
 			READMORE_TEXT: "Find out more",
-			CONTINUE_TEXT: "(click anywhere to continue)"
+			CONTINUE_TEXT: "(click anywhere to continue)",
+            ARMBAND_TEXT: "FREE KHADIJA"
 		},
 		"zz": {
 			HEADER_TEXT1: "Zlarg, blargh Azerbaijan flesti prodoghafe dusimo 9 ves kharna.",
 			HEADER_TEXT2: "Blerugh zargh aas rmodo asif fleah. Stugh modonigh.",
 			READMORE_TEXT: "Flimfloop a bizdang",
-			CONTINUE_TEXT: "(zlor drlum fa)"
+			CONTINUE_TEXT: "(zlor drlum fa)",
+            ARMBAND_TEXT: "BLAARGH KHADIJA"
 		}
 	}
 	if (typeof blackout_language === 'undefined') {
@@ -146,30 +148,58 @@
 		}
 		var offsets = findPos(obj);
 
-		var animationstyle = create('style', null, txt("@keyframes appear { from {opacity: 0;} to {opacity: 1;} }"));
+		var animationstyle = create('style', null, txt("@keyframes appear { 0%, 30% { opacity:0; } 100% {opacity:1; } } @keyframes fadeout { 0%, 30% { opacity:1; } 100% {opacity:0.4; } }"));
+        body.appendChild(animationstyle);
+        
+        var armband = create('a', {
+                background: 'black',
+                position: 'absolute',
+                boxShadow: '0px 0px 10px black',
+                textAlign: 'center',
+                top: '3em',
+                right: '-6em',
+                height: 'auto',
+                width: '15em',
+                color: 'white',
+                fontFamily: 'sans-serif',
+                padding: '0.5em 3em',
+                transform: 'rotate(40deg)',
+                fontWeight: 'bold',
+                letterSpacing: '1px',
+                textDecoration: 'none',
+                zIndex: KhadijaBlackout.ZINDEX - 1,
+                href: "https://www.occrp.org/freekhadijaismayilova/?pk_campaign=BlackOut&pk_kwd=ArmBand",
+            },
+            txt(KhadijaBlackout.texts.ARMBAND_TEXT)
+        )
+        body.appendChild(armband);
 
 		var blackout = create('div', {
-				fontFamily: 'Arial',
+				fontFamily: 'sans-serif',
 				position: 'fixed',
 				top: offsets[1],
+                left: '0px',
 				width: '100%',
 				backgroundColor: 'black',
 				textAlign: 'center',
-				paddingTop: '15%',
+				paddingTop: '10%',
 				zIndex: KhadijaBlackout.ZINDEX,
 				height: height,
 				color: '#ddd'},
-			create('h1', {marginLeft: 'auto', marginRight:'auto', maxWidth: '25em', fontFamily: 'Arial', color: '#ddd', fontSize: '45px'}, txt(KhadijaBlackout.texts.HEADER_TEXT1)),
-			create('h1', {fontFamily: 'Arial', color: '#ddd', fontSize: '35px', paddingTop: '40px', opacity: '1', animationName: 'appear', animationDuration: '2s', animationDelay: '1s' }, txt(KhadijaBlackout.texts.HEADER_TEXT2)),
-			create('p', { paddingTop: '50px'},
+			create('h1', {marginLeft: 'auto', textShadow: "-1px -1px 0px #444", marginRight:'auto', maxWidth: '25em', fontFamily: 'sans-serif', color: '#ddd', fontSize: '20pt', opacity: '0.4', animationName: 'fadeout', animationDuration: '6s', animationDelay: '0s'}, txt(KhadijaBlackout.texts.HEADER_TEXT1)),
+			create('h2', {fontFamily: 'sans-serif', fontSize: "15pt", textShadow: "0px 0px 1px white", color: '#fff', paddingTop: '2em', opacity: '1', animationName: 'appear', animationDuration: '6s', animationDelay: '0s' }, txt(KhadijaBlackout.texts.HEADER_TEXT2)),
+			create('p', { paddingTop: '0em'},
 				create('a', {
-					href: "https://www.occrp.org/freekhadijaismayilova/",
-					fontSize: '35px',
+					href: "https://www.occrp.org/freekhadijaismayilova/?pk_campaign=BlackOut&pk_kwd=FindOutMore",
+					fontSize: '15pt',
 					color: '#aaf',
+                    opacity: '1',
+                    animationName: 'appear',
+                    animationDuration: '9s', animationDelay: '0s'
 				}, txt(KhadijaBlackout.texts.READMORE_TEXT)))
 		);
 		if (opts['srsbzns'] !== true){
-			blackout.appendChild(create('p', {paddingTop: '250px', color: '#fff', fontSize: '130%'}, txt(KhadijaBlackout.texts.CONTINUE_TEXT)));
+			blackout.appendChild(create('p', {position: 'fixed', bottom: '1em', width: '100%', textAlign: 'center', fontFamily: "sans-serif", fontStyle: 'italic', color: '#fff', fontSize: '12pt'}, txt(KhadijaBlackout.texts.CONTINUE_TEXT)));
 			addEvent(blackout, 'click', function(e){
 				body.removeChild(blackout);
 			});
