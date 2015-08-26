@@ -177,6 +177,7 @@
                     fontWeight: 'bold',
                     letterSpacing: '1px',
                     textDecoration: 'none',
+                    boxSizing: 'content-box',
                     zIndex: KhadijaBlackout.ZINDEX - 1,
                     href: "https://www.occrp.org/freekhadijaismayilova/?pk_campaign=BlackOut&pk_kwd=ArmBand",
                 },
