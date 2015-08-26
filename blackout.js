@@ -183,6 +183,7 @@ try {
                 right: '0px',
                 width: '14em',
                 height: '10em',
+                zIndex: KhadijaBlackout.ZINDEX - 1,
                 background: 'transparent'
             },
             create('a', {
