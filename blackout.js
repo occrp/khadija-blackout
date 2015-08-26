@@ -116,18 +116,18 @@ var blackout_language = currentScript.getAttribute('lang');
 	KhadijaBlackout.MIN_HEIGHT = 100;
 	KhadijaBlackout.TRANSLATIONS = {
 		"en": {
-			HEADER_TEXT1: "Today the Azerbaijani government sentenced Khadija Ismayilova to 9 years in prison.",
+			HEADER_TEXT1: "Today the Azerbaijani government sentenced Khadija Ismayilova to X years in prison.",
 			HEADER_TEXT2: "They believe it will stop her reporting. It will not.",
 			READMORE_TEXT: "Find out more",
 			CONTINUE_TEXT: "(click anywhere to continue)",
-            ARMBAND_TEXT: "FREE KHADIJA"
+			ARMBAND_TEXT: "FREE KHADIJA"
 		},
 		"zz": {
-			HEADER_TEXT1: "Zlarg, blargh Azerbaijan flesti prodoghafe dusimo 9 ves kharna.",
+			HEADER_TEXT1: "Zlarg, blargh Azerbaijan flesti prodoghafe dusimo X ves kharna.",
 			HEADER_TEXT2: "Blerugh zargh aas rmodo asif fleah. Stugh modonigh.",
 			READMORE_TEXT: "Flimfloop a bizdang",
 			CONTINUE_TEXT: "(zlor drlum fa)",
-            ARMBAND_TEXT: "BLAARGH KHADIJA"
+			ARMBAND_TEXT: "BLAARGH KHADIJA"
 		}
 	}
 	if (typeof blackout_language === 'undefined') {
