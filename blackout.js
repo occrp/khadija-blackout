@@ -131,7 +131,22 @@ try {
 			READMORE_TEXT: "Flimfloop a bizdang",
 			CONTINUE_TEXT: "(zlor drlum fa)",
             ARMBAND_TEXT: "BLAARGH KHADIJA"
-		}
+		},
+        "is": {
+            HEADER_TEXT1: "Í dag dæmdi ríkisstjórn Azerbaijans Khadiju Ismayilovu í X ára fangelsisvist.",
+            HEADER_TEXT2: "Þau halda að það muni stöðva fréttaflutninginn hennar. Það er rangt.",
+            READMORE_TEXT: "Lærðu meira um málið",
+            CONTINUE_TEXT: "(smelltu hvar sem er til að halda áfram)",
+            ARMBAND_TEXT: "FRELSIÐ KHADIJU" // this has to be really short!
+        },
+
+        "pl": {
+            HEADER_TEXT1: "Rząd Azerbejdżanu skazał dziś Khadiję Ismayilową na X lat w więzieniu.",
+            HEADER_TEXT2: "Ma nadzieję, że to zablokuje jej działalność. Jest w błędzie.",
+            READMORE_TEXT: "Dowiedz się więcej",
+            CONTINUE_TEXT: "(kliknij gdziekolwiek, by zamknąć)",
+            ARMBAND_TEXT: "UWOLNIĆ KHADIJĘ" // this has to be really short!
+        },
 	}
 	if (typeof blackout_language === 'undefined') {
 		blackout_language = "en"
