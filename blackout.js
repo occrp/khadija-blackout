@@ -257,15 +257,13 @@ try {
 	};
     
     KhadijaBlackout.cookied = function() {
-        
-        console.log('cookied(): start');
+
         // the cookie name
         var cookieName = 'KhadijaBlackout';
         
         // get all cookies
         var cookies = document.cookie.split(';');
         for (var i=0; i<cookies.length; i++) {
-            console.log('cookied(): found a cookie: ' + cookies[i]);
             // cookied? cookied!
             if (cookies[i].trim().indexOf(cookieName + '=') == 0) return true;
         }
@@ -274,7 +272,6 @@ try {
         // setting it for a year
         var ctime = new Date();
         ctime.setTime(ctime.getTime() + (365*24*60*60*1000));
-        console.log('cookied(): setting cookie...');
         document.cookie = cookieName + '=seen; expires' + ctime.toUTCString();
         
         // user was not cookied upon arrival (now they are)
