@@ -172,10 +172,8 @@ try {
 			height = height > KhadijaBlackout.MIN_HEIGHT ? height : KhadijaBlackout.MIN_HEIGHT;
 		}
 		var offsets = findPos(obj);
-
-		var animationstyle = create('style', null, txt("@keyframes appear { 0%, 30% { opacity:0; } 100% {opacity:1; } } @keyframes fadeout { 0%, 30% { opacity:1; } 100% {opacity:0.4; } }"));
-        body.appendChild(animationstyle);
         
+        // armband
         var armband = create('div', {
                 overflow: 'hidden',
                 position: 'fixed',
@@ -215,6 +213,15 @@ try {
         )
         body.appendChild(armband);
 
+        // that's how the cookie crumbles
+        // we don't want to do blackout for users that have already seen it
+        if (KhadijaBlackout.cookied()) return;
+        
+        // animation
+        var animationstyle = create('style', null, txt("@keyframes appear { 0%, 30% { opacity:0; } 100% {opacity:1; } } @keyframes fadeout { 0%, 30% { opacity:1; } 100% {opacity:0.4; } }"));
+        body.appendChild(animationstyle);
+        
+        // blackout
 		var blackout = create('div', {
 				fontFamily: 'sans-serif',
 				position: 'fixed',
@@ -248,11 +255,38 @@ try {
 		}
 		body.appendChild(blackout);
 	};
+    
+    KhadijaBlackout.cookied = function() {
+        
+        console.log('cookied(): start');
+        // the cookie name
+        var cookieName = 'KhadijaBlackout';
+        
+        // get all cookies
+        var cookies = document.cookie.split(';');
+        for (var i=0; i<cookies.length; i++) {
+            console.log('cookied(): found a cookie: ' + cookies[i]);
+            // cookied? cookied!
+            if (cookies[i].trim().indexOf(cookieName + '=') == 0) return true;
+        }
+        
+        // if we're here, we have not found a cookie
+        // setting it for a year
+        var ctime = new Date();
+        ctime.setTime(ctime.getTime() + (365*24*60*60*1000));
+        console.log('cookied(): setting cookie...');
+        document.cookie = cookieName + '=seen; expires' + ctime.toUTCString();
+        
+        // user was not cookied upon arrival (now they are)
+        return false;
+    };
+    
 	KhadijaBlackout.go = function(){
 		var opts = getOpts();
 		if (opts['on'] !== false && !dateMatches(opts['on'])){
 			return;
 		}
+		
 		KhadijaBlackout.blackout(opts);
 	};
 
