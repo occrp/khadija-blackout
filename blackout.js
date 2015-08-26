@@ -162,6 +162,8 @@ var blackout_language = currentScript.getAttribute('lang');
         var armband = create('div', {
                 overflow: 'hidden',
                 position: 'fixed',
+                fontSize: '11pt',
+                lineHeight: '13pt',
                 top: '0px',
                 right: '0px',
                 width: '14em',
