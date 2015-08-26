@@ -151,26 +151,37 @@
 		var animationstyle = create('style', null, txt("@keyframes appear { 0%, 30% { opacity:0; } 100% {opacity:1; } } @keyframes fadeout { 0%, 30% { opacity:1; } 100% {opacity:0.4; } }"));
         body.appendChild(animationstyle);
         
-        var armband = create('a', {
-                background: 'black',
-                position: 'absolute',
-                boxShadow: '0px 0px 10px black',
-                textAlign: 'center',
-                top: '3em',
-                right: '-6em',
-                height: 'auto',
-                width: '15em',
-                color: 'white',
-                fontFamily: 'sans-serif',
-                padding: '0.5em 3em',
-                transform: 'rotate(40deg)',
-                fontWeight: 'bold',
-                letterSpacing: '1px',
-                textDecoration: 'none',
-                zIndex: KhadijaBlackout.ZINDEX - 1,
-                href: "https://www.occrp.org/freekhadijaismayilova/?pk_campaign=BlackOut&pk_kwd=ArmBand",
+        var armband = create('div', {
+                overflow: 'hidden',
+                position: 'fixed',
+                top: '0px',
+                right: '0px',
+                width: '12em',
+                height: '10em',
+                background: 'transparent'
             },
-            txt(KhadijaBlackout.texts.ARMBAND_TEXT)
+            create('a', {
+                    background: 'black',
+                    display: 'block',
+                    position: 'relative',
+                    boxShadow: '0px 0px 10px black',
+                    textAlign: 'center',
+                    top: '3em',
+                    right: '3em',
+                    height: 'auto',
+                    width: '15em',
+                    color: 'white',
+                    fontFamily: 'sans-serif',
+                    padding: '0.5em 3em',
+                    transform: 'rotate(40deg)',
+                    fontWeight: 'bold',
+                    letterSpacing: '1px',
+                    textDecoration: 'none',
+                    zIndex: KhadijaBlackout.ZINDEX - 1,
+                    href: "https://www.occrp.org/freekhadijaismayilova/?pk_campaign=BlackOut&pk_kwd=ArmBand",
+                },
+                txt(KhadijaBlackout.texts.ARMBAND_TEXT)
+            )
         )
         body.appendChild(armband);
 
@@ -185,9 +196,10 @@
 				paddingTop: '10%',
 				zIndex: KhadijaBlackout.ZINDEX,
 				height: height,
-				color: '#ddd'},
-			create('h1', {marginLeft: 'auto', textShadow: "-1px -1px 0px #444", marginRight:'auto', maxWidth: '25em', fontFamily: 'sans-serif', color: '#ddd', fontSize: '20pt', opacity: '0.4', animationName: 'fadeout', animationDuration: '6s', animationDelay: '0s'}, txt(KhadijaBlackout.texts.HEADER_TEXT1)),
-			create('h2', {fontFamily: 'sans-serif', fontSize: "15pt", textShadow: "0px 0px 1px white", color: '#fff', paddingTop: '2em', opacity: '1', animationName: 'appear', animationDuration: '6s', animationDelay: '0s' }, txt(KhadijaBlackout.texts.HEADER_TEXT2)),
+				color: '#ddd'
+            },
+			create('div', {marginLeft: 'auto', textShadow: "-1px -1px 0px #444", marginRight:'auto', maxWidth: '25em', fontFamily: 'sans-serif', color: '#ddd', fontSize: '20pt', opacity: '0.4', animationName: 'fadeout', animationDuration: '6s', animationDelay: '0s'}, txt(KhadijaBlackout.texts.HEADER_TEXT1)),
+			create('div', {fontFamily: 'sans-serif', fontSize: "15pt", textShadow: "0px 0px 1px white", color: '#fff', paddingTop: '2em', opacity: '1', animationName: 'appear', animationDuration: '6s', animationDelay: '0s' }, txt(KhadijaBlackout.texts.HEADER_TEXT2)),
 			create('p', { paddingTop: '0em'},
 				create('a', {
 					href: "https://www.occrp.org/freekhadijaismayilova/?pk_campaign=BlackOut&pk_kwd=FindOutMore",
