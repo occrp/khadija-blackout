@@ -1,5 +1,5 @@
 // Based on SopaBlackout
-// Usage: <script lang="en" src="https://www.occrp.org/freekhadijaismayilova/khadija-blackout/blackout.js"></script>
+// Usage: <script lang="en" src="https://www.occrp.org/freekhadijaismayilova/blackout/blackout.js"></script>
 // use your language in the lang tag
 
 // doing this before onDomReady to make sure we get the right script tag
@@ -172,7 +172,7 @@ var blackout_language = currentScript.getAttribute('lang');
                     background: 'black',
                     display: 'block',
                     position: 'relative',
-                    boxShadow: '0px 0px 10px black',
+                    boxShadow: '0px 0px 10px #333',
                     textAlign: 'center',
                     top: '3em',
                     right: '8em',
