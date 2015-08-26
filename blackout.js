@@ -273,7 +273,8 @@ try {
         var ctime = new Date();
         ctime.setTime(ctime.getTime() + (365*24*60*60*1000));
         document.cookie = cookieName + '=seen; expires' + ctime.toUTCString();
-        
+        // if the cookie is not there, cookies are blocked; do not display the blackout
+        if (document.cookie == '') return true;
         // user was not cookied upon arrival (now they are)
         return false;
     };
