@@ -1,5 +1,13 @@
 // Based on SopaBlackout
-// Usage: <script src="https://www.occrp.org/freekhadijaismayilova/khadija-blackout/blackout.js"></script>
+// Usage: <script lang="en" src="https://www.occrp.org/freekhadijaismayilova/khadija-blackout/blackout.js"></script>
+// use your language in the lang tag
+
+// doing this before onDomReady to make sure we get the right script tag
+var scriptElements = document.getElementsByTagName('script');
+var currentScript = scriptElements[scriptElements.length - 1];
+var blackout_language = currentScript.getAttribute('lang');
+
+// the magic
 (function (){
 	var root = this;
 
