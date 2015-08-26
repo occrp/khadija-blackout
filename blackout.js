@@ -1,11 +1,14 @@
 // Based on SopaBlackout
-// Usage: <script lang="en" src="https://www.occrp.org/freekhadijaismayilova/blackout/blackout.js"></script>
+// Usage: <script lang="en" src="https://www.occrp.org/freekhadijaismayilova/blackout/blackout?pk_campaign=KhadijaBlackout&pk_kwd=Impression"></script>
 // use your language in the lang tag
 
 // doing this before onDomReady to make sure we get the right script tag
 var scriptElements = document.getElementsByTagName('script');
 var currentScript = scriptElements[scriptElements.length - 1];
-var blackout_language = currentScript.getAttribute('lang');
+try {
+    var blackout_language = currentScript.getAttribute('lang').toLowerCase();
+} catch(e) {
+}
 
 // the magic
 (function (){
@@ -191,7 +194,7 @@ var blackout_language = currentScript.getAttribute('lang');
                     textDecoration: 'none',
                     boxSizing: 'content-box',
                     zIndex: KhadijaBlackout.ZINDEX - 1,
-                    href: "https://www.occrp.org/freekhadijaismayilova/?pk_campaign=BlackOut&pk_kwd=ArmBand",
+                    href: "https://www.occrp.org/freekhadijaismayilova/?pk_campaign=KhadijaBlackout&pk_kwd=ArmBand",
                 },
                 txt(KhadijaBlackout.texts.ARMBAND_TEXT)
             )
@@ -215,7 +218,7 @@ var blackout_language = currentScript.getAttribute('lang');
 			create('div', {fontFamily: 'sans-serif', fontSize: "15pt", lineHeight: '15pt', textShadow: "0px 0px 1px white", color: '#fff', paddingTop: '2em', opacity: '1', animationName: 'appear', animationDuration: '6s', animationDelay: '0s' }, txt(KhadijaBlackout.texts.HEADER_TEXT2)),
 			create('p', { paddingTop: '0em'},
 				create('a', {
-					href: "https://www.occrp.org/freekhadijaismayilova/?pk_campaign=BlackOut&pk_kwd=FindOutMore",
+					href: "https://www.occrp.org/freekhadijaismayilova/?pk_campaign=KhadijaBlackout&pk_kwd=FindOutMore",
 					fontSize: '15pt',
 					color: '#aaf',
                     opacity: '1',
