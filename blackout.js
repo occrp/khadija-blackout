@@ -180,6 +180,8 @@ var blackout_language = currentScript.getAttribute('lang');
                     width: '15em',
                     color: 'white',
                     fontFamily: 'sans-serif',
+                    fontSize: '11pt',
+                    lineHeight: '13pt',
                     padding: '0.5em 10em',
                     transform: 'rotate(40deg)',
                     fontWeight: 'bold',
@@ -207,8 +209,8 @@ var blackout_language = currentScript.getAttribute('lang');
 				height: height,
 				color: '#ddd'
             },
-			create('div', {marginLeft: 'auto', textShadow: "-1px -1px 0px #444", marginRight:'auto', maxWidth: '25em', fontFamily: 'sans-serif', color: '#ddd', fontSize: '20pt', opacity: '0.4', animationName: 'fadeout', animationDuration: '6s', animationDelay: '0s'}, txt(KhadijaBlackout.texts.HEADER_TEXT1)),
-			create('div', {fontFamily: 'sans-serif', fontSize: "15pt", textShadow: "0px 0px 1px white", color: '#fff', paddingTop: '2em', opacity: '1', animationName: 'appear', animationDuration: '6s', animationDelay: '0s' }, txt(KhadijaBlackout.texts.HEADER_TEXT2)),
+			create('div', {marginLeft: 'auto', textShadow: "-1px -1px 0px #444", marginRight:'auto', maxWidth: '25em', fontFamily: 'sans-serif', color: '#ddd', fontSize: '20pt', lineHeight: '20pt', opacity: '0.4', animationName: 'fadeout', animationDuration: '6s', animationDelay: '0s'}, txt(KhadijaBlackout.texts.HEADER_TEXT1)),
+			create('div', {fontFamily: 'sans-serif', fontSize: "15pt", lineHeight: '15pt', textShadow: "0px 0px 1px white", color: '#fff', paddingTop: '2em', opacity: '1', animationName: 'appear', animationDuration: '6s', animationDelay: '0s' }, txt(KhadijaBlackout.texts.HEADER_TEXT2)),
 			create('p', { paddingTop: '0em'},
 				create('a', {
 					href: "https://www.occrp.org/freekhadijaismayilova/?pk_campaign=BlackOut&pk_kwd=FindOutMore",
