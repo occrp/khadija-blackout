@@ -145,6 +145,13 @@ try {
             READMORE_TEXT: "Dowiedz się więcej",
             CONTINUE_TEXT: "(kliknij gdziekolwiek, by zamknąć)",
             ARMBAND_TEXT: "UWOLNIĆ KHADIJĘ" // this has to be really short!
+        },
+        "ba": {
+            HEADER_TEXT1: "Danas su azerbejdžanske vlasti osudile Hatidžu Ismailovu na X godina zatvora",
+            HEADER_TEXT2: "Vjeruju da će to zaustaviti njeno izvještavanje. Neće",
+            READMORE_TEXT: "Otkrijte više",
+            CONTINUE_TEXT: "(kliknite bilo gdje za dalje)",
+            ARMBAND_TEXT: "SLOBODA ZA HATIDŽU"  // this has to be really short!
         }
 	}
 	if (typeof blackout_language === 'undefined') {
