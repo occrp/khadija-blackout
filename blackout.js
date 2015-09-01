@@ -194,6 +194,13 @@ try {
             READMORE_TEXT: "Otkrijte više",
             CONTINUE_TEXT: "(kliknite bilo gde za dalje)",
             ARMBAND_TEXT: "SLOBODA ZA HADIDŽU"  // this has to be really short!
+        },
+        "mk": {
+            HEADER_TEXT1: "Денес владата на Азербејџан ја осуди Хадиџа Исмаилова на 7 години и 6 месеци затвор.",
+            HEADER_TEXT2: "Тие веруваат дека затворот ќе го запрат нејзиното известување. Тоа нема да се случи.",
+            READMORE_TEXT: "Откриј повеќе",
+            CONTINUE_TEXT: "(кликни било каде за да продолжиш)",
+            ARMBAND_TEXT: "СЛОБОДА ЗА ХАДИЏА" // this has to be really short!
         }
 	}
 	if (typeof blackout_language === 'undefined') {
