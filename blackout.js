@@ -188,6 +188,13 @@ try {
             CONTINUE_TEXT: "(kliknite bilo gde za dalje)",
             ARMBAND_TEXT: "SLOBODA ZA HADIDŽU"  // this has to be really short!
         },
+        "sr-cins": {
+            HEADER_TEXT1: "Danas su vlasti Azerbejdžana osudile našu koleginicu Hadidžu Ismailovu na sedam i po godina zatvora",
+            HEADER_TEXT2: "Veruju da će time sprečiti njen rad, ali neće.",
+            READMORE_TEXT: "Saznaj više",
+            CONTINUE_TEXT: "(klikni bilo gde na stranici za nastavak)"
+            ARMBAND_TEXT: "SLOBODA ZA HADIDŽU"  // this has to be really short!
+        },
         "sr": {
             HEADER_TEXT1: "Azerbejdžanske vlasti osudile su danas novinarku Hadidžu Ismailovu na 7 godina i 6 mjeseci zatvora",
             HEADER_TEXT2: "Veruju da će to da zaustavi njeno izveštavanje – neće",
@@ -195,7 +202,7 @@ try {
             CONTINUE_TEXT: "(kliknite bilo gde za dalje)",
             ARMBAND_TEXT: "SLOBODA ZA HADIDŽU"  // this has to be really short!
         }
-	}
+	};
 	if (typeof blackout_language === 'undefined') {
 		blackout_language = "en"
 	}
