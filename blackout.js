@@ -192,7 +192,7 @@ try {
             HEADER_TEXT1: "Danas su vlasti Azerbejdžana osudile našu koleginicu Hadidžu Ismailovu na sedam i po godina zatvora",
             HEADER_TEXT2: "Veruju da će time sprečiti njen rad, ali neće.",
             READMORE_TEXT: "Saznaj više",
-            CONTINUE_TEXT: "(klikni bilo gde na stranici za nastavak)"
+            CONTINUE_TEXT: "(klikni bilo gde na stranici za nastavak)",
             ARMBAND_TEXT: "SLOBODA ZA HADIDŽU"  // this has to be really short!
         },
         "sr": {
