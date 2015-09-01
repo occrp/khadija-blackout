@@ -119,7 +119,7 @@ try {
 	KhadijaBlackout.MIN_HEIGHT = 100;
 	KhadijaBlackout.TRANSLATIONS = {
 		"en": {
-			HEADER_TEXT1: "Today the Azerbaijani government sentenced Khadija Ismayilova to X years in prison.",
+			HEADER_TEXT1: "Today the Azerbaijani government sentenced Khadija Ismayilova to 7 years and 6 months in prison.",
 			HEADER_TEXT2: "They believe it will stop her reporting. It will not.",
 			READMORE_TEXT: "Find out more",
 			CONTINUE_TEXT: "(click anywhere to continue)",
@@ -133,54 +133,68 @@ try {
             ARMBAND_TEXT: "BLAARGH KHADIJA"
 		},
         "is": {
-            HEADER_TEXT1: "Í dag dæmdi ríkisstjórn Azerbaijans Khadiju Ismayilovu í X ára fangelsisvist.",
+            HEADER_TEXT1: "Í dag dæmdi ríkisstjórn Azerbaijans Khadiju Ismayilovu í 7 ára og 6 mánaða fangelsisvist.",
             HEADER_TEXT2: "Þau halda að það muni stöðva fréttaflutninginn hennar. Það er rangt.",
             READMORE_TEXT: "Lærðu meira um málið",
             CONTINUE_TEXT: "(smelltu hvar sem er til að halda áfram)",
             ARMBAND_TEXT: "FRELSIÐ KHADIJU" // this has to be really short!
         },
         "pl": {
-            HEADER_TEXT1: "Rząd Azerbejdżanu skazał dziś Khadiję Ismayilową na X lat w więzieniu.",
+            HEADER_TEXT1: "Rząd Azerbejdżanu skazał dziś Khadiję Ismayilową na 7 lat i 6 miesięcy w więzieniu.",
             HEADER_TEXT2: "Ma nadzieję, że to zablokuje jej działalność. Jest w błędzie.",
             READMORE_TEXT: "Dowiedz się więcej",
             CONTINUE_TEXT: "(kliknij gdziekolwiek, by zamknąć)",
             ARMBAND_TEXT: "UWOLNIĆ KHADIJĘ" // this has to be really short!
         },
+        "bs": {
+            HEADER_TEXT1: "Danas su azerbejdžanske vlasti osudile Hatidžu Ismailovu na 7 godina i 6 mjeseci zatvora",
+            HEADER_TEXT2: "Vjeruju da će to zaustaviti njeno izvještavanje. Neće",
+            READMORE_TEXT: "Otkrijte više",
+            CONTINUE_TEXT: "(kliknite bilo gdje za dalje)",
+            ARMBAND_TEXT: "SLOBODA ZA HATIDŽU"  // this has to be really short!
+        },
         "ba": {
-            HEADER_TEXT1: "Danas su azerbejdžanske vlasti osudile Hatidžu Ismailovu na X godina zatvora",
+            HEADER_TEXT1: "Danas su azerbejdžanske vlasti osudile Hatidžu Ismailovu na 7 godina i 6 mjeseci zatvora",
             HEADER_TEXT2: "Vjeruju da će to zaustaviti njeno izvještavanje. Neće",
             READMORE_TEXT: "Otkrijte više",
             CONTINUE_TEXT: "(kliknite bilo gdje za dalje)",
             ARMBAND_TEXT: "SLOBODA ZA HATIDŽU"  // this has to be really short!
         },
         "ro": {
-            HEADER_TEXT1: "Astazi guvernul azer a condamnat-o pe Khadija Ismayilova la X ani de inchisoare",
+            HEADER_TEXT1: "Astazi guvernul azer a condamnat-o pe Khadija Ismayilova la 7 ani și 6 luni de inchisoare",
             HEADER_TEXT2: "Ei cred ca o vor opri din investigarea coruptiei regimului Aliyev. Asta nu se va intampla.",
             READMORE_TEXT: "Afla mai multe",
             CONTINUE_TEXT: "(apasa oriunde pentru a continua)",
             ARMBAND_TEXT: "ELIBERATI-O PE KHADIJA"  // this has to be really short!
         },
         "md": {
-            HEADER_TEXT1: "Astazi guvernul azer a condamnat-o pe Khadija Ismayilova la X ani de inchisoare",
+            HEADER_TEXT1: "Astazi guvernul azer a condamnat-o pe Khadija Ismayilova la 7 ani și 6 luni de inchisoare",
             HEADER_TEXT2: "Ei cred ca o vor opri din investigarea coruptiei regimului Aliyev. Asta nu se va intampla.",
             READMORE_TEXT: "Afla mai multe",
             CONTINUE_TEXT: "(apasa oriunde pentru a continua)",
             ARMBAND_TEXT: "ELIBERATI-O PE KHADIJA"  // this has to be really short!
         },
         "bg": {
-            HEADER_TEXT1: "Днес правителството на Азърбайджан осъди Хадиджа Исмаилова на X години затвор",
+            HEADER_TEXT1: "Днес правителството на Азърбайджан осъди Хадиджа Исмаилова на 7 години и 6 месеца затвор",
             HEADER_TEXT2: "Те вярват, че това ще я спре да пише. Няма да стане.",
             READMORE_TEXT: "Научете повече",
             CONTINUE_TEXT: "(кликнете където и да е, за да продължите)",
             ARMBAND_TEXT: "СВОБОДА ЗА ХАДИДЖА"  // this has to be really short!
         },
         "rs": {
-            HEADER_TEXT1: "Azerbejdžanske vlasti osudile su danas novinarku Hadidžu Ismailovu na X godina zatvora",
+            HEADER_TEXT1: "Azerbejdžanske vlasti osudile su danas novinarku Hadidžu Ismailovu na 7 godina i 6 mjeseci zatvora",
             HEADER_TEXT2: "Veruju da će to da zaustavi njeno izveštavanje – neće",
             READMORE_TEXT: "Otkrijte više",
             CONTINUE_TEXT: "(kliknite bilo gde za dalje)",
             ARMBAND_TEXT: "SLOBODA ZA HADIDŽU"  // this has to be really short!
-        }
+        },
+        "sr": {
+            HEADER_TEXT1: "Azerbejdžanske vlasti osudile su danas novinarku Hadidžu Ismailovu na 7 godina i 6 mjeseci zatvora",
+            HEADER_TEXT2: "Veruju da će to da zaustavi njeno izveštavanje – neće",
+            READMORE_TEXT: "Otkrijte više",
+            CONTINUE_TEXT: "(kliknite bilo gde za dalje)",
+            ARMBAND_TEXT: "SLOBODA ZA HADIDŽU"  // this has to be really short!
+        },
 	}
 	if (typeof blackout_language === 'undefined') {
 		blackout_language = "en"
