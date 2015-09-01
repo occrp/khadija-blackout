@@ -153,6 +153,20 @@ try {
             CONTINUE_TEXT: "(kliknite bilo gdje za dalje)",
             ARMBAND_TEXT: "SLOBODA ZA HATIDŽU"  // this has to be really short!
         },
+        "ro": {
+            HEADER_TEXT1: "Astazi guvernul azer a condamnat-o pe Khadija Ismayilova la X ani de inchisoare",
+            HEADER_TEXT2: "Ei cred ca o vor opri din investigarea coruptiei regimului Aliyev. Asta nu se va intampla.",
+            READMORE_TEXT: "Afla mai multe",
+            CONTINUE_TEXT: "(apasa oriunde pentru a continua)",
+            ARMBAND_TEXT: "ELIBERATI-O PE KHADIJA"  // this has to be really short!
+        },
+        "md": {
+            HEADER_TEXT1: "Astazi guvernul azer a condamnat-o pe Khadija Ismayilova la X ani de inchisoare",
+            HEADER_TEXT2: "Ei cred ca o vor opri din investigarea coruptiei regimului Aliyev. Asta nu se va intampla.",
+            READMORE_TEXT: "Afla mai multe",
+            CONTINUE_TEXT: "(apasa oriunde pentru a continua)",
+            ARMBAND_TEXT: "ELIBERATI-O PE KHADIJA"  // this has to be really short!
+        },
         "bg": {
             HEADER_TEXT1: "Днес правителството на Азърбайджан осъди Хадиджа Исмаилова на X години затвор",
             HEADER_TEXT2: "Те вярват, че това ще я спре да пише. Няма да стане.",
