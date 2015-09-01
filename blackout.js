@@ -152,6 +152,20 @@ try {
             READMORE_TEXT: "Otkrijte više",
             CONTINUE_TEXT: "(kliknite bilo gdje za dalje)",
             ARMBAND_TEXT: "SLOBODA ZA HATIDŽU"  // this has to be really short!
+        },
+        "bg": {
+            HEADER_TEXT1: "Днес правителството на Азърбайджан осъди Хадиджа Исмаилова на X години затвор",
+            HEADER_TEXT2: "Те вярват, че това ще я спре да пише. Няма да стане.",
+            READMORE_TEXT: "Научете повече",
+            CONTINUE_TEXT: "(кликнете където и да е, за да продължите)",
+            ARMBAND_TEXT: "СВОБОДА ЗА ХАДИДЖА"  // this has to be really short!
+        },
+        "rs": {
+            HEADER_TEXT1: "Azerbejdžanske vlasti osudile su danas novinarku Hadidžu Ismailovu na X godina zatvora",
+            HEADER_TEXT2: "Veruju da će to da zaustavi njeno izveštavanje – neće",
+            READMORE_TEXT: "Otkrijte više",
+            CONTINUE_TEXT: "(kliknite bilo gde za dalje)",
+            ARMBAND_TEXT: "SLOBODA ZA HADIDŽU"  // this has to be really short!
         }
 	}
 	if (typeof blackout_language === 'undefined') {
