@@ -194,7 +194,7 @@ try {
             READMORE_TEXT: "Otkrijte više",
             CONTINUE_TEXT: "(kliknite bilo gde za dalje)",
             ARMBAND_TEXT: "SLOBODA ZA HADIDŽU"  // this has to be really short!
-        },
+        }
 	}
 	if (typeof blackout_language === 'undefined') {
 		blackout_language = "en"
