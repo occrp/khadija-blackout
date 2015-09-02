@@ -208,6 +208,13 @@ try {
             READMORE_TEXT: "Откриј повеќе",
             CONTINUE_TEXT: "(кликни било каде за да продолжиш)",
             ARMBAND_TEXT: "СЛОБОДА ЗА ХАДИЏА" // this has to be really short!
+        },
+        "al": {
+            HEADER_TEXT1: "Qeveria e Ayerbejxhanit e dënoi sot gazetaren Hadixha Ismailova me 7 vite e 6 muaj burg.",
+            HEADER_TEXT2: "Ato besojnë se me burgosjen e saj do të ndërptitet raportimi. Kjo nuk do të ndodhë.",
+            READMORE_TEXT: "Zbulo më shumë",
+            CONTINUE_TEXT: "(kliko kudo që të vazhdosh më tutje)",
+            ARMBAND_TEXT: "LIRI PËR HADIXHËN" // this has to be really short!"
         }
 	};
 	if (typeof blackout_language === 'undefined') {
