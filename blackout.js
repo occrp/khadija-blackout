@@ -119,21 +119,21 @@ try {
 	KhadijaBlackout.MIN_HEIGHT = 100;
 	KhadijaBlackout.TRANSLATIONS = {
 		"en": {
-			HEADER_TEXT1: "Today the Azerbaijani government sentenced Khadija Ismayilova to 7 years and 6 months in prison.",
+			HEADER_TEXT1: "On September 1st, the Azerbaijani government sentenced Khadija Ismayilova to 7 years and 6 months in prison.",
 			HEADER_TEXT2: "They believe it will stop her reporting. It will not.",
 			READMORE_TEXT: "Find out more",
 			CONTINUE_TEXT: "(click anywhere to continue)",
 			ARMBAND_TEXT: "FREE KHADIJA"
 		},
 		"zz": {
-			HEADER_TEXT1: "Zlarg, blargh Azerbaijan flesti prodoghafe dusimo X ves kharna.",
+			HEADER_TEXT1: "Bruga ug, blargh Azerbaijan flesti prodoghafe dusimo X ves kharna.",
 			HEADER_TEXT2: "Blerugh zargh aas rmodo asif fleah. Stugh modonigh.",
 			READMORE_TEXT: "Flimfloop a bizdang",
 			CONTINUE_TEXT: "(zlor drlum fa)",
             ARMBAND_TEXT: "BLAARGH KHADIJA"
 		},
         "is": {
-            HEADER_TEXT1: "Í dag dæmdi ríkisstjórn Azerbaijans Khadiju Ismayilovu í 7 ára og 6 mánaða fangelsisvist.",
+            HEADER_TEXT1: "1. september 2015 dæmdi ríkisstjórn Azerbaijans Khadiju Ismayilovu í 7 ára og 6 mánaða fangelsisvist.",
             HEADER_TEXT2: "Þau halda að það muni stöðva fréttaflutninginn hennar. Það er rangt.",
             READMORE_TEXT: "Lærðu meira um málið",
             CONTINUE_TEXT: "(smelltu hvar sem er til að halda áfram)",
@@ -202,6 +202,13 @@ try {
             CONTINUE_TEXT: "(kliknite bilo gde za dalje)",
             ARMBAND_TEXT: "SLOBODA ZA HADIDŽU"  // this has to be really short!
         },
+        "cz": {
+            HEADER_TEXT1: "1. září odsoudila ázerbajdžánská vláda Chadížu Ismajlovou k sedmi a půl letům vězení.",
+            HEADER_TEXT2: "Věří, že ji tak zastaví v reportování. Nezastaví.",
+            READMORE_TEXT: "Více zde",
+            CONTINUE_TEXT: "(klikněte kamkoliv a pokračujte na web)",
+            ARMBAND_TEXT: "FREE KHADIJA"
+        }
         "mk": {
             HEADER_TEXT1: "Денес владата на Азербејџан ја осуди Хадиџа Исмаилова на 7 години и 6 месеци затвор.",
             HEADER_TEXT2: "Тие веруваат дека затворот ќе го запрат нејзиното известување. Тоа нема да се случи.",
