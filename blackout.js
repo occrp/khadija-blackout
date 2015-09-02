@@ -208,7 +208,7 @@ try {
             READMORE_TEXT: "Více zde",
             CONTINUE_TEXT: "(klikněte kamkoliv a pokračujte na web)",
             ARMBAND_TEXT: "FREE KHADIJA"
-        }
+        },
         "mk": {
             HEADER_TEXT1: "Денес владата на Азербејџан ја осуди Хадиџа Исмаилова на 7 години и 6 месеци затвор.",
             HEADER_TEXT2: "Тие веруваат дека затворот ќе го запрат нејзиното известување. Тоа нема да се случи.",
