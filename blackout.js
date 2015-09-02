@@ -140,21 +140,21 @@ try {
             ARMBAND_TEXT: "FRELSIÐ KHADIJU" // this has to be really short!
         },
         "pl": {
-            HEADER_TEXT1: "Rząd Azerbejdżanu skazał dziś Khadiję Ismayilową na 7 lat i 6 miesięcy w więzieniu.",
+            HEADER_TEXT1: "1. września 2015r. rząd Azerbejdżanu skazał Khadiję Ismayilową na 7 lat i 6 miesięcy w więzieniu.",
             HEADER_TEXT2: "Ma nadzieję, że to zablokuje jej działalność. Jest w błędzie.",
             READMORE_TEXT: "Dowiedz się więcej",
             CONTINUE_TEXT: "(kliknij gdziekolwiek, by zamknąć)",
             ARMBAND_TEXT: "UWOLNIĆ KHADIJĘ" // this has to be really short!
         },
         "bs": {
-            HEADER_TEXT1: "Danas su azerbejdžanske vlasti osudile Hatidžu Ismailovu na 7 godina i 6 mjeseci zatvora",
+            HEADER_TEXT1: "Azerbejdžanske vlasti su 1. septembra 2015. osudile Hatidžu Ismailovu na 7 godina i 6 mjeseci zatvora",
             HEADER_TEXT2: "Vjeruju da će to zaustaviti njeno izvještavanje. Neće",
             READMORE_TEXT: "Otkrijte više",
             CONTINUE_TEXT: "(kliknite bilo gdje za dalje)",
             ARMBAND_TEXT: "SLOBODA ZA HATIDŽU"  // this has to be really short!
         },
         "ba": {
-            HEADER_TEXT1: "Danas su azerbejdžanske vlasti osudile Hatidžu Ismailovu na 7 godina i 6 mjeseci zatvora",
+            HEADER_TEXT1: "Azerbejdžanske vlasti su 1. septembra 2015. osudile Hatidžu Ismailovu na 7 godina i 6 mjeseci zatvora",
             HEADER_TEXT2: "Vjeruju da će to zaustaviti njeno izvještavanje. Neće",
             READMORE_TEXT: "Otkrijte više",
             CONTINUE_TEXT: "(kliknite bilo gdje za dalje)",
@@ -210,14 +210,14 @@ try {
             ARMBAND_TEXT: "FREE KHADIJA"
         },
         "mk": {
-            HEADER_TEXT1: "Денес владата на Азербејџан ја осуди Хадиџа Исмаилова на 7 години и 6 месеци затвор.",
+            HEADER_TEXT1: "На 1 Септември владата на Азербејџан ја осуди Хадиџа Исмаилова на 7 години и 6 месеци затвор.",
             HEADER_TEXT2: "Тие веруваат дека затворот ќе го запрат нејзиното известување. Тоа нема да се случи.",
             READMORE_TEXT: "Откриј повеќе",
             CONTINUE_TEXT: "(кликни било каде за да продолжиш)",
             ARMBAND_TEXT: "СЛОБОДА ЗА ХАДИЏА" // this has to be really short!
         },
         "al": {
-            HEADER_TEXT1: "Qeveria e Ayerbejxhanit e dënoi sot gazetaren Hadixha Ismailova me 7 vite e 6 muaj burg.",
+            HEADER_TEXT1: "Më 1 shtator Ayerbejxhanit e dënoi sot gazetaren Hadixha Ismailova me 7 vite e 6 muaj burg.",
             HEADER_TEXT2: "Ato besojnë se me burgosjen e saj do të ndërptitet raportimi. Kjo nuk do të ndodhë.",
             READMORE_TEXT: "Zbulo më shumë",
             CONTINUE_TEXT: "(kliko kudo që të vazhdosh më tutje)",
