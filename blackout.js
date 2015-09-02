@@ -182,7 +182,7 @@ try {
             ARMBAND_TEXT: "СВОБОДА ЗА ХАДИДЖА"  // this has to be really short!
         },
         "rs": {
-            HEADER_TEXT1: "Azerbejdžanske vlasti osudile su novinarku Hadidžu Ismailovu na sedam i po godina zatvora",
+            HEADER_TEXT1: "Prvog septembra 2015. godine, Azerbejdžanske vlasti osudile su novinarku Hadidžu Ismailovu na sedam i po godina zatvora",
             HEADER_TEXT2: "Veruju da će to da zaustavi njeno izveštavanje – neće",
             READMORE_TEXT: "Otkrijte više",
             CONTINUE_TEXT: "(kliknite bilo gde za dalje)",
@@ -196,11 +196,11 @@ try {
             ARMBAND_TEXT: "SLOBODA ZA HADIDŽU"  // this has to be really short!
         },
         "sr": {
-            HEADER_TEXT1: "Azerbejdžanske vlasti osudile su danas novinarku Hadidžu Ismailovu na 7 godina i 6 mjeseci zatvora",
-            HEADER_TEXT2: "Veruju da će to da zaustavi njeno izveštavanje – neće",
-            READMORE_TEXT: "Otkrijte više",
-            CONTINUE_TEXT: "(kliknite bilo gde za dalje)",
-            ARMBAND_TEXT: "SLOBODA ZA HADIDŽU"  // this has to be really short!
+            HEADER_TEXT1: "Prvog septembra 2015. godine, Azerbejdžanske vlasti su osudile Kadidžu Ismailovu na 7 godina i 6 mjeseci zatvora.",
+            HEADER_TEXT2: "Vjeruju da će to zaustaviti njeno izvještavanje. Neće.",
+            READMORE_TEXT: "Saznaj više", 
+            CONTINUE_TEXT: "(kliknite bilo gdje za dalje)",
+            ARMBAND_TEXT: "SLOBODA ZA HADIDŽU" // this has to be really short!
         },
         "cz": {
             HEADER_TEXT1: "1. září odsoudila ázerbajdžánská vláda Chadížu Ismajlovou k sedmi a půl letům vězení.",
