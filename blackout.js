@@ -222,6 +222,13 @@ try {
             READMORE_TEXT: "Zbulo më shumë",
             CONTINUE_TEXT: "(kliko kudo që të vazhdosh më tutje)",
             ARMBAND_TEXT: "LIRI PËR HADIXHËN" // this has to be really short!"
+        },
+        "me": {
+            HEADER_TEXT1: "Prvog septembra 2015. godine, Azerbejdžanske vlasti su osudile Kadidžu Ismailovu na 7 godina i 6 mjeseci zatvora.",
+            HEADER_TEXT2: "Vjeruju da će to zaustaviti njeno izvještavanje. Neće.",
+            READMORE_TEXT: "Saznaj više", 
+            CONTINUE_TEXT: "(kliknite bilo gdje za dalje)",
+            ARMBAND_TEXT: "SLOBODA ZA HADIDŽU" // this has to be really short!
         }
 	};
 	if (typeof blackout_language === 'undefined') {
